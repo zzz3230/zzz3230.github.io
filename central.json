@@ -1,0 +1,37 @@
+{
+                        "type": "TbxNetInfo",
+                        "version": "1.0.0",
+                        "time": "2015-07-17T17:04:43.4092892+03:00",
+                        "sign": {
+                            "envoy": "root",
+                            "value": "49333042855270926496699948296887696663598846716563507827802379253149570800874:42293372226174368276762321545057967548841533328623326678459765908688053416453"
+                        },
+                        "entries": [
+                            {
+                                "name": "game-tetris-backend",
+                                "endpoints": [ "games-master", "na-http" ],
+                                "status": "offline;Currently not available",
+                                "actions": [
+                                    {
+                                        "action": "THROW",
+                                        "target": null,
+                                        "value": "Error 0x733af21: Servers/Internet not available",
+                                        "onerror": "client:silent;server:report"
+                                    }
+                                ]
+                            }
+                        ],
+                        "endpoints": [
+                            {
+                                "name": "games-master",
+                                "protocol": "http/https",
+                                "primaryHost": "zzz3230.pythonanywhere.com:80",
+                                "reserveHost": "games.tbhello.ru:8051"
+                            },
+                            {
+                                "name": "na-http",
+                                "protocol": "http/https",
+                                "primaryHost": "callback.tbhello.ru:8052"
+                            }
+                        ]
+                    }
