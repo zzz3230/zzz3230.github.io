@@ -25,7 +25,7 @@
                             {
                                 "name": "games-master",
                                 "protocol": "http/https",
-                                "primaryHost": "https://zzz3230.pythonanywhere.com",
+                                "primaryHost": "http://127.0.0.1:8080",
                                 "reserveHost": "games.tbhello.ru:8051"
                             },
                             {
