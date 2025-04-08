@@ -25,7 +25,7 @@
                             {
                                 "name": "games-master",
                                 "protocol": "http/https",
-                                "primaryHost": "http://127.0.0.1:44425",
+                                "primaryHost": "https://web.tbhello.ru",
                                 "reserveHost": "games.tbhello.ru:8051"
                             },
                             {
